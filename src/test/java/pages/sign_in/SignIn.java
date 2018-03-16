@@ -5,7 +5,8 @@ import pages.PageModel;
 
 public abstract class SignIn extends PageModel {
     public Boolean checkSignInPage(){
-        WebElement signInSign = this.getElementsByXpath("//*[@id=\"headingText\"]");
+        //does not work in headless mode for chrome (works headless in firefox);
+        WebElement signInSign = this.getElementById("headingText");
         return signInSign.getText().equals("Sign in");
 
     }

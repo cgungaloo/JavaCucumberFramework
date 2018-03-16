@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 17700003550,
+  "duration": 11040313607,
   "status": "passed"
 });
 formatter.scenario({
@@ -80,7 +80,7 @@ formatter.match({
   "location": "MyStepdefs.iAmOnTheHomePage()"
 });
 formatter.result({
-  "duration": 1162868033,
+  "duration": 551192255,
   "status": "passed"
 });
 formatter.match({
@@ -93,7 +93,7 @@ formatter.match({
   "location": "MyStepdefs.iEnterTheSearchTermIntoTheSearchBar(String)"
 });
 formatter.result({
-  "duration": 662462404,
+  "duration": 120401550,
   "status": "passed"
 });
 formatter.match({
@@ -106,22 +106,22 @@ formatter.match({
   "location": "SearchResultsSteps.iCanSeeTheSearchResultsForInTheSearchResultsPage(String)"
 });
 formatter.result({
-  "duration": 149436716,
+  "duration": 61097564,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchResultsSteps.iCanSeeTheFollowingTabs(String\u003e)"
 });
 formatter.result({
-  "duration": 2054840162,
+  "duration": 1944916954,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31646,
+  "duration": 390136259,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21315152922,
+  "duration": 11433473375,
   "status": "passed"
 });
 formatter.scenario({
@@ -157,25 +157,25 @@ formatter.match({
   "location": "MyStepdefs.iAmOnTheHomePage()"
 });
 formatter.result({
-  "duration": 136867976,
+  "duration": 89222193,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.iClickOnSignIn()"
 });
 formatter.result({
-  "duration": 6800986682,
+  "duration": 1568570808,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInSteps.iCanSeeTheSignInPage()"
 });
 formatter.result({
-  "duration": 51307316,
+  "duration": 81808820,
   "status": "passed"
 });
 formatter.after({
-  "duration": 50891,
+  "duration": 380410564,
   "status": "passed"
 });
 formatter.uri("terms.feature");
@@ -187,7 +187,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 17503493288,
+  "duration": 10596128796,
   "status": "passed"
 });
 formatter.scenario({
@@ -217,25 +217,25 @@ formatter.match({
   "location": "MyStepdefs.iAmOnTheHomePage()"
 });
 formatter.result({
-  "duration": 154903840,
+  "duration": 88080357,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.iClickOnTerms()"
 });
 formatter.result({
-  "duration": 277782411,
+  "duration": 296307383,
   "status": "passed"
 });
 formatter.match({
   "location": "TermsStepDefs.iShouldSeeTheTermsPage()"
 });
 formatter.result({
-  "duration": 949209718,
+  "duration": 572789609,
   "status": "passed"
 });
 formatter.after({
-  "duration": 53457,
+  "duration": 531363248,
   "status": "passed"
 });
 });

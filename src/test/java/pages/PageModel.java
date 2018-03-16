@@ -11,12 +11,12 @@ import org.openqa.selenium.Keys;
 public abstract class PageModel {
 
     public WebElement getElementById(String id){
-        WebElement webElem = SetProperty.driver.findElement(By.id(id));
+        WebElement webElem = (new WebDriverWait(SetProperty.driver,10).until(ExpectedConditions.presenceOfElementLocated(By.id(id))));
         return  webElem;
     }
 
     public WebElement getElementsByXpath(String xpath){
-        WebElement webElem = (new WebDriverWait(SetProperty.driver,5)).until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
+        WebElement webElem = (new WebDriverWait(SetProperty.driver,10)).until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
         return webElem;
     }
 

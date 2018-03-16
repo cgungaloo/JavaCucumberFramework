@@ -19,6 +19,6 @@ public class hooks {
 
     @After
     public void AfterScenario() {
-//        SetProperty.driver.close();
+        SetProperty.driver.close();
     }
 }
