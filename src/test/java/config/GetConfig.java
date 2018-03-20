@@ -6,6 +6,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 import org.json.*;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import java.net.MalformedURLException;
+import java.net.URL;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class GetConfig {
     private static String configFilePath = "src/test/java/config/config.json";

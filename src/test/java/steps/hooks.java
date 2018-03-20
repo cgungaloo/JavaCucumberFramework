@@ -6,11 +6,12 @@ import cucumber.api.java.Before;
 import org.json.*;
 import utils.SetProperty;
 
+import java.net.MalformedURLException;
 import java.util.HashMap;
 
 public class hooks {
     @Before
-    public void BeforeScenario(Scenario scenario){
+    public void BeforeScenario(Scenario scenario) throws MalformedURLException {
         GetConfig.GetConfig();
         SetProperty.setBrowserProperty();
 
