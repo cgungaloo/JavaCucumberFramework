@@ -25,7 +25,7 @@ public class SetProperty {
                 DesiredCapabilities dc = DesiredCapabilities.firefox();
                 dc.setBrowserName("firefox");
                 dc.setPlatform(Platform.XP);
-                WebDriver driver = new RemoteWebDriver(new URL("http://172.31.2.199:5566/wd/hub"),dc);
+                RemoteWebDriver driver = new RemoteWebDriver(new URL("http://172.31.2.199:5566/wd/hub"),dc);
                 driver.get(GetConfig.configItems.get("web_address"));
             }
         }else{
