@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff7a55c0-72f7-4a56-a95e-e9817c324815" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/search_results/SearchResults.java" afterPath="$PROJECT_DIR$/src/test/java/pages/search_results/SearchResults.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/home.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/home.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/terms.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/terms.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchResults.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchResults.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/search_results/SearchResults.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -95,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terms.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="terms.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/terms.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="4" selection-end-column="37" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -154,9 +153,9 @@
         <option value="$PROJECT_DIR$/src/test/java/config/config.json" />
         <option value="$PROJECT_DIR$/src/test/java/pages/PageModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/SetProperty.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/terms.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/home.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/search_results/SearchResults.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/terms.feature" />
       </list>
     </option>
   </component>
@@ -892,14 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/terms.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/home.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -920,6 +911,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/terms.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>
       </provider>
