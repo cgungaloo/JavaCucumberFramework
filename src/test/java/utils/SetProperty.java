@@ -23,13 +23,13 @@ public class SetProperty {
                 DesiredCapabilities dc = DesiredCapabilities.chrome();
                 dc.setBrowserName("chrome");
                 dc.setPlatform(Platform.XP);
-                RemoteWebDriver driver = new RemoteWebDriver(new URL("http://172.31.2.199:5566/wd/hub"),dc);
+                WebDriver driver = new RemoteWebDriver(new URL("http://172.31.2.199:5566/wd/hub"),dc);
                 driver.get(GetConfig.configItems.get("web_address"));
             }else if(GetConfig.configItems.get("browser").equals("firefox")){
                 DesiredCapabilities dc = DesiredCapabilities.firefox();
                 dc.setBrowserName("firefox");
                 dc.setPlatform(Platform.XP);
-                RemoteWebDriver driver = new RemoteWebDriver(new URL("http://172.31.2.199:5566/wd/hub"),dc);
+                WebDriver driver = new RemoteWebDriver(new URL("http://172.31.2.199:5566/wd/hub"),dc);
                 driver.get(GetConfig.configItems.get("web_address"));
             }
         }else{
