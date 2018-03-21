@@ -1,8 +1,8 @@
 {
-  "browser":"firefox",
+  "browser":"chrome",
   "username":"aaaaaa",
   "password":"dddddd",
   "web_address":"https://www.google.co.uk/",
   "headless":"false",
-  "useGrid":"true"
+  "useGrid":"false"
 }
