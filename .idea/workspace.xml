@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff7a55c0-72f7-4a56-a95e-e9817c324815" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/SetProperty.java" afterPath="$PROJECT_DIR$/src/test/java/utils/SetProperty.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +23,8 @@
       <file leaf-file-name="hooks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#604#605#0" expanded="true" />
                 <element signature="e#646#647#0" expanded="true" />
@@ -56,6 +55,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SetProperty.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/SetProperty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="694">
+              <caret line="43" column="94" lean-forward="true" selection-start-line="43" selection-start-column="94" selection-end-line="43" selection-end-column="94" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SearchResultsSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchResultsSteps.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,28 +87,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetProperty.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/SetProperty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="796">
-              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GetConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/config/GetConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,8 +102,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="306">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -249,6 +238,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="googleuat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="googleuat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="googleuat" type="b2602c69:ProjectViewProjectNode" />
@@ -881,33 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/config/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/config/GetConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -918,10 +888,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/SetProperty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="694">
+          <caret line="43" column="94" lean-forward="true" selection-start-line="43" selection-start-column="94" selection-end-line="43" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
