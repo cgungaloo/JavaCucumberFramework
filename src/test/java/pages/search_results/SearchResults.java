@@ -25,6 +25,7 @@ public abstract class SearchResults extends PageModel{
 
             WebElement tabItem = this.getElementsByXpath(xpath);
             if(tabItem.getText().equals(tab) ==false){
+                System.out.println(tab + "Did not match");
                 return false;
             }
             divnum++;
