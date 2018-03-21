@@ -15,12 +15,12 @@ public abstract class SearchResults extends PageModel{
         Integer divnum =1;
         String xpath;
         for(String tab : tabs){
-            if(divnum > 1 && divnum !=6){
-                xpath = "//*[@id=\"hdtb-msb-vis\"]/div[" + divnum.toString() +"]/a";
-            }else if(divnum ==6) {
+            if (tab.equals("All")){
+                xpath = "//*[@id=\"hdtb-msb-vis\"]/div[1]";
+            }else if(tab.equals("More")){
                 xpath ="  //*[@id=\"hdtb-msb\"]/div[1]/g-header-menu/a";
             }else{
-                xpath = "//*[@id=\"hdtb-msb-vis\"]/div[1]";
+                xpath = "//*[@id=\"hdtb-msb-vis\"]/div[" + divnum.toString() +"]/a";
             }
 
             WebElement tabItem = this.getElementsByXpath(xpath);
