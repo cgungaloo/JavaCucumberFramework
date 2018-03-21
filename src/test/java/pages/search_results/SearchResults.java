@@ -14,19 +14,18 @@ public abstract class SearchResults extends PageModel{
     public Boolean checkTabs(List<String> tabs){
         Integer divnum =1;
         String xpath;
+
         for(String tab : tabs){
             System.out.println("Checking tab : "+tab);
-            if (tab.equals("All")){
-                xpath = "//*[@id=\"hdtb-msb-vis\"]/div[1]";
-            }else if(tab.equals("More")){
-                xpath ="  //*[@id=\"hdtb-msb\"]/div[1]/g-header-menu/a";
-            }else{
-                xpath = "//*[@id=\"hdtb-msb-vis\"]/div[" + divnum.toString() +"]/a";
-            }
 
+            if (tab.equals("Settings")){
+                xpath = "//*[@id=\"abar_button_opt\"]";
+            }else{
+                xpath ="//*[@id=\"hdtb-tls\"]";
+            }
             WebElement tabItem = this.getElementsByXpath(xpath);
             if(tabItem.getText().equals(tab) ==false){
-                System.out.println(tab + "Did not match");
+                System.out.println(tab + " Did not match");
                 return false;
             }
             divnum++;

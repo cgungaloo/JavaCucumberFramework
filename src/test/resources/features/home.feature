@@ -7,12 +7,8 @@ Feature: home
     When I enter the search term "Amazon" into the search bar
     Then I can see the search results for "Amazon" in the search results page
     And I can see the following tabs:
-      |All     |
-      |Shopping|
-      |News    |
-      |Images  |
-      |Books   |
-      |More    |
+      |Settings|
+      |Tools   |
 
   @Test
   Scenario: Go to Sign In
