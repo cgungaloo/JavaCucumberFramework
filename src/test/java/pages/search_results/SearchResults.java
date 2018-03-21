@@ -15,6 +15,7 @@ public abstract class SearchResults extends PageModel{
         Integer divnum =1;
         String xpath;
         for(String tab : tabs){
+            System.out.println("Checking tab : "+tab);
             if (tab.equals("All")){
                 xpath = "//*[@id=\"hdtb-msb-vis\"]/div[1]";
             }else if(tab.equals("More")){
