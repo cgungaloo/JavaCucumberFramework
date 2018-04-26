@@ -5,12 +5,12 @@ package config;
         import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(monochrome = true,
+@CucumberOptions(monochrome = false,
         features = {"src/test/resources/features/"},
         dryRun = false,
-        glue="steps",
-        format = {"pretty","html:target/Destination"}
+        glue={"steps"}
 //        ,tags = {"@Test"}
 )
 public class RunCukesTest {
+
 }

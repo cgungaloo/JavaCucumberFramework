@@ -3,8 +3,8 @@ import config.GetConfig;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import org.json.*;
 import utils.SetProperty;
+import java.lang.management.ManagementFactory;
 
 import java.net.MalformedURLException;
 import java.util.HashMap;
@@ -12,6 +12,11 @@ import java.util.HashMap;
 public class hooks {
     @Before
     public void BeforeScenario(Scenario scenario) throws MalformedURLException {
+
+        long threadId = Thread.currentThread().getId();
+        String processName = ManagementFactory.getRuntimeMXBean().getName();
+        System.out.println("Started in thread: " + threadId + ", in JVM: " + processName);
+
         GetConfig.GetConfig();
         SetProperty.setBrowserProperty();
 
@@ -20,6 +25,6 @@ public class hooks {
 
     @After
     public void AfterScenario() {
-        SetProperty.driver.close();
+        SetProperty.driver.quit();
     }
 }
