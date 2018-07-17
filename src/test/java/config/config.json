@@ -4,5 +4,5 @@
   "password":"dddddd",
   "web_address":"https://www.google.co.uk/",
   "headless":"true",
-  "useGrid":"false"
+  "useGrid":"true"
 }

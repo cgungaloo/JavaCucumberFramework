@@ -10,8 +10,7 @@ public class TermsStepDefs {
     private Terms terms;
     @Then("^I should see the terms page$")
     public void iShouldSeeTheTermsPage() throws Throwable {
-//        terms = Page_Factory.getTerms();
-//        assertTrue(terms.checkTermsPage());
-        System.out.println("I can see the terms page");
+        terms = Page_Factory.getTerms();
+        assertTrue(terms.checkTermsPage());
     }
 }

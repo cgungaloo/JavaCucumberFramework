@@ -14,14 +14,12 @@ public class SearchResultsSteps {
     private SearchResults searchResults;
     @Then("^I can see the search results for \"([^\"]*)\" in the search results page$")
     public void iCanSeeTheSearchResultsForInTheSearchResultsPage(String arg0){
-//        searchResults = Page_Factory.getSearchResults();
-//        assertTrue(searchResults.checkSearchResults(arg0));
-        System.out.println("I can see search results");
+        searchResults = Page_Factory.getSearchResults();
+        assertTrue(searchResults.checkSearchResults(arg0));
     }
 
     @And("^I can see the following tabs:$")
     public void iCanSeeTheFollowingTabs(List<String> tabs) throws Throwable {
-//        assertTrue(searchResults.checkTabs(tabs));
-        System.out.println("I can see tabs");
+        assertTrue(searchResults.checkTabs(tabs));
     }
 }
