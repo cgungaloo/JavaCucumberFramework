@@ -1,5 +1,7 @@
 FROM maven
 RUN apt update
-COPY . /
+RUN mkdir temproj
+COPY . /temproj/
 
-RUN mvn clean test
+WORKDIR /temproj
+ENTRYPOINT ["mvn", "test"]
