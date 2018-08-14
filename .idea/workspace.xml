@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff7a55c0-72f7-4a56-a95e-e9817c324815" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/chromedriver_mac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/geckodriver_mac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/SetProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/SetProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-01-16_594.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-01-39_073.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-33-31_297.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-35-22_466.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-39-16_661.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-41-11_459.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-42-28_912-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-42-32_540.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-44-36_475.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-46-15_686.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T17-22-39_434-jvmRun3.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T17-22-45_283.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T17-25-07_188.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Parallel01IT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Parallel02IT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Parallel03IT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Parallel01IT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Parallel02IT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Parallel03IT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel01IT.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel01IT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel02IT.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel02IT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel03IT.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel03IT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/googleuat-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Parallel01IT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Parallel01IT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Parallel02IT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Parallel02IT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Parallel03IT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Parallel03IT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/SetProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/SetProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,8 +64,8 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -889,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
