@@ -2,12 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff7a55c0-72f7-4a56-a95e-e9817c324815" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/chromedriver_mac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/geckodriver_mac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SearchResultsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SearchResultsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SignInSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SignInSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/TermsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/TermsStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/SetProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/SetProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-parallel/3/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-01-16_594.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-01-39_073.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-33-31_297.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-35-22_466.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-39-16_661.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-41-11_459.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-42-28_912-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-42-32_540.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-44-36_475.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T16-46-15_686.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T17-22-39_434-jvmRun3.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T17-22-45_283.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2018-04-26T17-25-07_188.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Parallel01IT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Parallel02IT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Parallel03IT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Parallel01IT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Parallel02IT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Parallel03IT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel01IT.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel01IT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel02IT.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel02IT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel03IT.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel03IT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/googleuat-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Parallel01IT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Parallel01IT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Parallel02IT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Parallel02IT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Parallel03IT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Parallel03IT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/SetProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/SetProperty.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,23 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RunCukesTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/config/RunCukesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="hooks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="135">
+              <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#858#859#0" expanded="true" />
@@ -55,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -64,25 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchResultsSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TermsStepDefs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/TermsStepDefs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignInSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/SignInSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -90,8 +108,26 @@
       <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/config/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -99,8 +135,17 @@
       <file leaf-file-name="GetConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/config/GetConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -108,17 +153,17 @@
       <file leaf-file-name="Page_Factory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/Page_Factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="510">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetProperty.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SetProperty.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/SetProperty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+            <state relative-caret-position="274">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,11 +207,9 @@
         <option value="$PROJECT_DIR$/src/test/java/config/GetConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/PageModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/search_results/SearchResults.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/SetProperty.java" />
         <option value="$PROJECT_DIR$/src/test/java/config/RunCukesTest.java" />
         <option value="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel01IT.java" />
         <option value="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel02IT.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/terms.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/home.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/home2.feature" />
@@ -175,7 +218,11 @@
         <option value="$PROJECT_DIR$/src/test/java/steps/SearchResultsSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/hooks.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/SetProperty.java" />
         <option value="$PROJECT_DIR$/src/test/java/config/config.json" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -203,65 +250,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="JavaCucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCucumberFramework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaCucumberFramework2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCucumberFramework2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,6 +269,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/utils" />
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
     </key>
   </component>
@@ -294,12 +285,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunCukesTest">
+  <component name="RunManager" selected="Cucumber java.Feature: home (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Feature: home (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="googleuat" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Feature: home (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="googleuat" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Feature: home" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
@@ -389,9 +402,13 @@
     <list>
       <item itemvalue="Cucumber java.Feature: home" />
       <item itemvalue="JUnit.RunCukesTest" />
+      <item itemvalue="Cucumber java.Feature: home (1)" />
+      <item itemvalue="Cucumber java.Feature: home (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: home (2)" />
+        <item itemvalue="Cucumber java.Feature: home (1)" />
         <item itemvalue="JUnit.RunCukesTest" />
       </list>
     </recent_temporary>
@@ -410,35 +427,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCukesTest - 2018.04.15 at 18h 36m 04s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(1) - 2018.08.05 at 16h 20m 47s.xml">
+      <configuration name="Feature: home (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.04.15 at 18h 36m 38s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(1) - 2018.08.05 at 17h 17m 56s.xml">
+      <configuration name="Feature: home (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.04.15 at 18h 37m 53s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(2) - 2018.08.10 at 13h 28m 03s.xml">
+      <configuration name="Feature: home (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.04.15 at 18h 39m 25s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(2) - 2018.08.10 at 13h 41m 24s.xml">
+      <configuration name="Feature: home (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.04.15 at 18h 39m 51s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(2) - 2018.08.10 at 13h 57m 26s.xml">
+      <configuration name="Feature: home (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.04.15 at 18h 43m 43s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(2) - 2018.08.10 at 13h 58m 57s.xml">
+      <configuration name="Feature: home (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.04.26 at 13h 22m 16s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(2) - 2018.08.10 at 14h 00m 15s.xml">
+      <configuration name="Feature: home (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.04.26 at 13h 27m 02s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(2) - 2018.08.10 at 14h 01m 23s.xml">
+      <configuration name="Feature: home (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.04.26 at 13h 34m 05s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(2) - 2018.08.10 at 14h 03m 32s.xml">
+      <configuration name="Feature: home (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.04.26 at 13h 34m 34s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
+    <history-entry file="Feature__home_(2) - 2018.08.10 at 14h 12m 52s.xml">
+      <configuration name="Feature: home (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -458,6 +475,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15773809" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -467,39 +485,39 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3267974" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3267974" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32779455" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10195313" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32779455" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954683" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32779455" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.3296875" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -511,13 +529,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/utils/SetProperty.java</url>
-          <line>41</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/utils/SetProperty.java</url>
-          <line>40</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -532,20 +550,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Page_Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/home/Home_Firefox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -781,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/home.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -798,7 +795,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/TermsStepDefs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -809,24 +806,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchResultsSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/config/RunCukesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/config/GetConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Page_Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/MyStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="135">
+          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#858#859#0" expanded="true" />
@@ -835,44 +849,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/config/GetConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/config/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/config/RunCukesTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Page_Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="218">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/SetProperty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        <state relative-caret-position="274">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchResultsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>

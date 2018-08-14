@@ -23,20 +23,24 @@ public class SetProperty {
                 DesiredCapabilities dc = DesiredCapabilities.chrome();
                 dc.setBrowserName("chrome");
                 dc.setPlatform(Platform.LINUX);
-                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),dc);
+                driver = new RemoteWebDriver(new URL("http://selenium-hub:4444/wd/hub"),dc);
                 driver.get(GetConfig.configItems.get("web_address"));
 
             }else if(GetConfig.configItems.get("browser").equals("firefox")){
                 DesiredCapabilities dc = DesiredCapabilities.firefox();
                 dc.setBrowserName("firefox");
                 dc.setPlatform(Platform.LINUX);
-                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),dc);
+                driver = new RemoteWebDriver(new URL("http://selenium-hub:4444/wd/hub"),dc);
                 driver.get(GetConfig.configItems.get("web_address"));
             }
         }else{
 
             if(GetConfig.configItems.get("browser").equals("chrome")){
-                System.setProperty("webdriver.chrome.driver","/Program Files/chromedriver.exe");
+                if(GetConfig.configItems.get("os").equals("osx")) {
+                    System.setProperty("webdriver.chrome.driver", "src/test/java/utils/chromedriver_mac");
+                }else{
+                    System.setProperty("webdriver.chrome.driver", "src/test/java/utils/chromedriver");
+                }
                 if(GetConfig.configItems.get("headless").equals("true")){
                     ChromeOptions co = new ChromeOptions();
                     co.addArguments("headless");
@@ -46,7 +50,11 @@ public class SetProperty {
                 }
 
             }else if (GetConfig.configItems.get("browser").equals("firefox")){
-                System.setProperty("webdriver.gecko.driver","/Program Files/geckodriver.exe");
+                if(GetConfig.configItems.get("os").equals("osx")) {
+                    System.setProperty("webdriver.gecko.driver", "src/test/java/utils/geckodriver_mac");
+                }else{
+                    System.setProperty("webdriver.gecko.driver", "src/test/java/utils/geckodriver");
+                }
                 FirefoxOptions fo = new FirefoxOptions();
                 if(GetConfig.configItems.get("headless").equals("true")){
                     fo.setHeadless(true);

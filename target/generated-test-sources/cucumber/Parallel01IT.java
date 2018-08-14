@@ -6,8 +6,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         strict = true,
-        features = {"/Users/chris/dev/seleniumdocker/JavaCucumberFramework/src/test/resources/features/home.feature"},
-        plugin = {"json:/Users/chris/dev/seleniumdocker/JavaCucumberFramework/target/cucumber-parallel/1.json", "html:/Users/chris/dev/seleniumdocker/JavaCucumberFramework/target/cucumber-parallel/1"},
+        features = {"/Users/chris/dev/seleniumdocker/JavaCucumberFramework2/src/test/resources/features/home.feature"},
+        plugin = {"json:/Users/chris/dev/seleniumdocker/JavaCucumberFramework2/target/cucumber-parallel/1.json", "html:/Users/chris/dev/seleniumdocker/JavaCucumberFramework2/target/cucumber-parallel/1"},
         monochrome = false,
         tags = {},
         glue = {"steps"})

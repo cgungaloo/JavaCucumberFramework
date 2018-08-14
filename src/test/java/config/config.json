@@ -3,6 +3,7 @@
   "username":"aaaaaa",
   "password":"dddddd",
   "web_address":"https://www.google.co.uk/",
-  "headless":"true",
-  "useGrid":"true"
+  "headless":"false",
+  "useGrid":"true",
+  "os":"linux"
 }
