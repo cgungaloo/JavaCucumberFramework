@@ -7,7 +7,16 @@
     <groupId>com.ecs.googleuat</groupId>
     <artifactId>googleuat</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+
+
+    <properties>
+        <sele.lib.version>3.141.59</sele.lib.version>
+    </properties>
+
+
     <build>
+       <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -89,29 +98,30 @@
                 </configuration>
             </plugin>
 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>pack.AppRunner</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
         </plugins>
+        </pluginManagement>
     </build>
 
-    <repositories>
-        <repository>
-            <id>sonatype-snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>repo.jenkins-ci.org</id>
-            <url>http://repo.jenkins-ci.org/releases/</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.9.1</version>
-        </dependency>
+    		<groupId>org.seleniumhq.selenium</groupId>
+    		<artifactId>selenium-java</artifactId>
+    		<version>${sele.lib.version}</version>
+		</dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -131,22 +141,19 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20180130</version>
+            <version>20180813</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
-            <version>3.11.0</version>
+            <version>${sele.lib.version}</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server-standalone</artifactId>
-            <version>2.53.0</version>
-        </dependency>
+            <version>${sele.lib.version}</version>
+        </dependency>-->
 
 
     </dependencies>
-
-
-
 </project>

@@ -5,5 +5,6 @@
   "web_address":"https://www.google.co.uk/",
   "headless":"false",
   "useGrid":"true",
-  "os":"osx"
+  "os":"osx",
+  "grid_address":"http://10.46.174.134:4444/wd/hub"
 }

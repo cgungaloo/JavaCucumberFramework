@@ -16,8 +16,9 @@ public abstract class PageModel {
     }
 
     public WebElement getElementsByXpath(String xpath){
-        System.out.println("Dirver is " +SetProperty.driver);
+        System.out.println(" Driver is " +SetProperty.driver);
         WebElement webElem = (new WebDriverWait(SetProperty.driver,10)).until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
+        System.out.println("WebElem : "+ webElem);
         return webElem;
     }
 

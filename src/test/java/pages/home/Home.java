@@ -13,11 +13,14 @@ public abstract class Home extends PageModel {
     }
 
     public void SearchForItem(String searchItem){
-        this.sendKeysByXPath("//*[@id=\"lst-ib\"]",searchItem);
+//        this.sendKeysByXPath("//*[@id=\"lst-ib\"]",searchItem);
+        this.sendKeysByXPath("//*[@id=\"tsf\"]/div[2]/div/div[1]/div/div[1]/input",searchItem);
     }
 
     public void SelectSearchByXpath(){
-        this.PressEnterByXpath("//*[@id=\"lst-ib\"]");
+        //*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input
+//        this.PressEnterByXpath("//*[@id=\"lst-ib\"]");
+        this.PressEnterByXpath("//*[@id=\"tsf\"]/div[2]/div/div[1]/div/div[1]/input");
     }
 
     public void clickOnTerms(){

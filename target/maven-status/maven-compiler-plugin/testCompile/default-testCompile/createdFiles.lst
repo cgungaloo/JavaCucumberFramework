@@ -10,10 +10,7 @@ pages/terms/Terms_Chrome.class
 pages/search_results/SearchResults_Firefox.class
 config/GetConfig.class
 pages/sign_in/SignIn_Firefox.class
-Parallel03IT.class
-Parallel02IT.class
 pages/sign_in/SignIn.class
-Parallel01IT.class
 pages/home/Home_Chrome.class
 pages/home/Home.class
 pages/PageModel.class

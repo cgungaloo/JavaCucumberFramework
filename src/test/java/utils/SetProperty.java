@@ -23,14 +23,14 @@ public class SetProperty {
                 DesiredCapabilities dc = DesiredCapabilities.chrome();
                 dc.setBrowserName("chrome");
                 dc.setPlatform(Platform.LINUX);
-                driver = new RemoteWebDriver(new URL("http://selenium-hub:4444/wd/hub"),dc);
+                driver = new RemoteWebDriver(new URL(GetConfig.configItems.get("grid_address")),dc);
                 driver.get(GetConfig.configItems.get("web_address"));
 
             }else if(GetConfig.configItems.get("browser").equals("firefox")){
                 DesiredCapabilities dc = DesiredCapabilities.firefox();
                 dc.setBrowserName("firefox");
                 dc.setPlatform(Platform.LINUX);
-                driver = new RemoteWebDriver(new URL("http://selenium-hub:4444/wd/hub"),dc);
+                driver = new RemoteWebDriver(new URL(GetConfig.configItems.get("grid_address")),dc);
                 driver.get(GetConfig.configItems.get("web_address"));
             }
         }else{

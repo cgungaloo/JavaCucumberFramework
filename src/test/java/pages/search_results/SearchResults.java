@@ -6,7 +6,8 @@ import java.util.List;
 public abstract class SearchResults extends PageModel{
 
     public Boolean checkSearchResults(String searchText){
-        WebElement searchBarItem = this.getElementsByXpath("//*[@id=\"lst-ib\"]");
+
+        WebElement searchBarItem = this.getElementsByXpath("//*[@id=\"tsf\"]");
         Boolean isSearchItemInBar = searchBarItem.getAttribute("value").equals(searchText);
         return isSearchItemInBar;
     }
