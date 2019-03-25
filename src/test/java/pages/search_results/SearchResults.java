@@ -7,7 +7,8 @@ public abstract class SearchResults extends PageModel{
 
     public Boolean checkSearchResults(String searchText){
 
-        WebElement searchBarItem = this.getElementsByXpath("//*[@id=\"tsf\"]");
+        WebElement searchBarItem = this.getElementsByXpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[2]/div/div[1]/input");
+        //*[@id="tsf"]/div[2]/div[1]/div[2]/div/div[1]/input
         Boolean isSearchItemInBar = searchBarItem.getAttribute("value").equals(searchText);
         return isSearchItemInBar;
     }

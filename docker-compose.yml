@@ -1,25 +1,53 @@
-version: "3"
+# Usage:
+    #   docker-compose up --force-recreate
+version: '3'
+
 services:
-  selenium-hub:
-    image: selenium/hub
-    container_name: selenium-hub
+  #--------------#
+  zalenium:
+    image: "dosel/zalenium"
+    container_name: zalenium
+    hostname: zalenium
+    volumes:
+      - /tmp/videos:/home/seluser/videos
+      - /var/run/docker.sock:/var/run/docker.sock
     ports:
-      - "4444:4444"
-  chrome:
-    image: selenium/node-chrome
-    depends_on:
-      - selenium-hub
+      - 4444:4444
+      - 4445:4445
+    command: >
+      start --desiredContainers 2
+            --maxDockerSeleniumContainers 8
+            --screenWidth 800 --screenHeight 600
+            --timeZone "Europe/London"
+            --videoRecordingEnabled true
+            --sauceLabsEnabled false
+            --browserStackEnabled false
+            --testingBotEnabled false
+            --startTunnel false
     environment:
-      - HUB_PORT_4444_TCP_ADDR=selenium-hub
-      - HUB_PORT_4444_TCP_PORT=4444
-  firefox:
-    image: selenium/node-firefox
+      - HOST_UID
+      - HOST_GID
+      - SAUCE_USERNAME
+      - SAUCE_ACCESS_KEY
+      - BROWSER_STACK_USER
+      - BROWSER_STACK_KEY
+      - TESTINGBOT_KEY
+      - TESTINGBOT_SECRET
+
+    healthcheck:
+            test: ["CMD", "curl", "-f", "http://localhost:4444"]
+            interval: 10s
+            timeout: 10s
+            retries: 10
+
+  mvnboxbuild:
     depends_on:
-      - selenium-hub
-    environment:
-      - HUB_PORT_4444_TCP_ADDR=selenium-hub
-      - HUB_PORT_4444_TCP_PORT=4444
-  devenv:
+      - zalenium
+    container_name: mvnbox
     build: .
+
+  mvnbox:
     depends_on:
-      - selenium-hub
+      - mvnboxbuild
+      - zalenium
+    image: javacucumberframework_mvnboxbuild

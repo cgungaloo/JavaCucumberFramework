@@ -14,23 +14,3 @@ Feature: home
     Given I am on the home page
     When I click on Sign in
     Then I can see the Sign In Page
-
-  Scenario: Go to Sign In
-    Given I am on the home page
-    When I click on Sign in
-    Then I can see the Sign In Page
-
-  Scenario: Go to Sign In
-    Given I am on the home page
-    When I click on Sign in
-    Then I can see the Sign In Page
-
-  Scenario: Go to Sign In
-    Given I am on the home page
-    When I click on Sign in
-    Then I can see the Sign In Page
-
-  Scenario: Go to Sign In
-    Given I am on the home page
-    When I click on Sign in
-    Then I can see the Sign In Page
